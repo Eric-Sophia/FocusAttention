@@ -1,0 +1,536 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		46230A281D51B0AA0023D0D8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 46230A271D51B0AA0023D0D8 /* main.m */; };
+		46230A2B1D51B0AA0023D0D8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 46230A2A1D51B0AA0023D0D8 /* AppDelegate.m */; };
+		46230A2E1D51B0AB0023D0D8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 46230A2D1D51B0AB0023D0D8 /* ViewController.m */; };
+		46230A311D51B0AB0023D0D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46230A2F1D51B0AB0023D0D8 /* Main.storyboard */; };
+		46230A341D51B0AB0023D0D8 /* FocusAttention.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 46230A321D51B0AB0023D0D8 /* FocusAttention.xcdatamodeld */; };
+		46230A361D51B0AB0023D0D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46230A351D51B0AB0023D0D8 /* Assets.xcassets */; };
+		46230A391D51B0AB0023D0D8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46230A371D51B0AB0023D0D8 /* LaunchScreen.storyboard */; };
+		46230A441D51B0AB0023D0D8 /* FocusAttentionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 46230A431D51B0AB0023D0D8 /* FocusAttentionTests.m */; };
+		46230A4F1D51B0AB0023D0D8 /* FocusAttentionUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 46230A4E1D51B0AB0023D0D8 /* FocusAttentionUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		46230A401D51B0AB0023D0D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46230A1B1D51B0AA0023D0D8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 46230A221D51B0AA0023D0D8;
+			remoteInfo = FocusAttention;
+		};
+		46230A4B1D51B0AB0023D0D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46230A1B1D51B0AA0023D0D8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 46230A221D51B0AA0023D0D8;
+			remoteInfo = FocusAttention;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		46230A231D51B0AA0023D0D8 /* FocusAttention.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FocusAttention.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		46230A271D51B0AA0023D0D8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		46230A291D51B0AA0023D0D8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		46230A2A1D51B0AA0023D0D8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		46230A2C1D51B0AB0023D0D8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		46230A2D1D51B0AB0023D0D8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		46230A301D51B0AB0023D0D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		46230A331D51B0AB0023D0D8 /* FocusAttention.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FocusAttention.xcdatamodel; sourceTree = "<group>"; };
+		46230A351D51B0AB0023D0D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		46230A381D51B0AB0023D0D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		46230A3A1D51B0AB0023D0D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46230A3F1D51B0AB0023D0D8 /* FocusAttentionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FocusAttentionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		46230A431D51B0AB0023D0D8 /* FocusAttentionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FocusAttentionTests.m; sourceTree = "<group>"; };
+		46230A451D51B0AB0023D0D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46230A4A1D51B0AB0023D0D8 /* FocusAttentionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FocusAttentionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		46230A4E1D51B0AB0023D0D8 /* FocusAttentionUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FocusAttentionUITests.m; sourceTree = "<group>"; };
+		46230A501D51B0AB0023D0D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		46230A201D51B0AA0023D0D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46230A3C1D51B0AB0023D0D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46230A471D51B0AB0023D0D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		46230A1A1D51B0AA0023D0D8 = {
+			isa = PBXGroup;
+			children = (
+				46230A251D51B0AA0023D0D8 /* FocusAttention */,
+				46230A421D51B0AB0023D0D8 /* FocusAttentionTests */,
+				46230A4D1D51B0AB0023D0D8 /* FocusAttentionUITests */,
+				46230A241D51B0AA0023D0D8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		46230A241D51B0AA0023D0D8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				46230A231D51B0AA0023D0D8 /* FocusAttention.app */,
+				46230A3F1D51B0AB0023D0D8 /* FocusAttentionTests.xctest */,
+				46230A4A1D51B0AB0023D0D8 /* FocusAttentionUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		46230A251D51B0AA0023D0D8 /* FocusAttention */ = {
+			isa = PBXGroup;
+			children = (
+				46230A291D51B0AA0023D0D8 /* AppDelegate.h */,
+				46230A2A1D51B0AA0023D0D8 /* AppDelegate.m */,
+				46230A2C1D51B0AB0023D0D8 /* ViewController.h */,
+				46230A2D1D51B0AB0023D0D8 /* ViewController.m */,
+				46230A2F1D51B0AB0023D0D8 /* Main.storyboard */,
+				46230A351D51B0AB0023D0D8 /* Assets.xcassets */,
+				46230A371D51B0AB0023D0D8 /* LaunchScreen.storyboard */,
+				46230A3A1D51B0AB0023D0D8 /* Info.plist */,
+				46230A321D51B0AB0023D0D8 /* FocusAttention.xcdatamodeld */,
+				46230A261D51B0AA0023D0D8 /* Supporting Files */,
+			);
+			path = FocusAttention;
+			sourceTree = "<group>";
+		};
+		46230A261D51B0AA0023D0D8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				46230A271D51B0AA0023D0D8 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		46230A421D51B0AB0023D0D8 /* FocusAttentionTests */ = {
+			isa = PBXGroup;
+			children = (
+				46230A431D51B0AB0023D0D8 /* FocusAttentionTests.m */,
+				46230A451D51B0AB0023D0D8 /* Info.plist */,
+			);
+			path = FocusAttentionTests;
+			sourceTree = "<group>";
+		};
+		46230A4D1D51B0AB0023D0D8 /* FocusAttentionUITests */ = {
+			isa = PBXGroup;
+			children = (
+				46230A4E1D51B0AB0023D0D8 /* FocusAttentionUITests.m */,
+				46230A501D51B0AB0023D0D8 /* Info.plist */,
+			);
+			path = FocusAttentionUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		46230A221D51B0AA0023D0D8 /* FocusAttention */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46230A531D51B0AB0023D0D8 /* Build configuration list for PBXNativeTarget "FocusAttention" */;
+			buildPhases = (
+				46230A1F1D51B0AA0023D0D8 /* Sources */,
+				46230A201D51B0AA0023D0D8 /* Frameworks */,
+				46230A211D51B0AA0023D0D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FocusAttention;
+			productName = FocusAttention;
+			productReference = 46230A231D51B0AA0023D0D8 /* FocusAttention.app */;
+			productType = "com.apple.product-type.application";
+		};
+		46230A3E1D51B0AB0023D0D8 /* FocusAttentionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46230A561D51B0AB0023D0D8 /* Build configuration list for PBXNativeTarget "FocusAttentionTests" */;
+			buildPhases = (
+				46230A3B1D51B0AB0023D0D8 /* Sources */,
+				46230A3C1D51B0AB0023D0D8 /* Frameworks */,
+				46230A3D1D51B0AB0023D0D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				46230A411D51B0AB0023D0D8 /* PBXTargetDependency */,
+			);
+			name = FocusAttentionTests;
+			productName = FocusAttentionTests;
+			productReference = 46230A3F1D51B0AB0023D0D8 /* FocusAttentionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		46230A491D51B0AB0023D0D8 /* FocusAttentionUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46230A591D51B0AB0023D0D8 /* Build configuration list for PBXNativeTarget "FocusAttentionUITests" */;
+			buildPhases = (
+				46230A461D51B0AB0023D0D8 /* Sources */,
+				46230A471D51B0AB0023D0D8 /* Frameworks */,
+				46230A481D51B0AB0023D0D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				46230A4C1D51B0AB0023D0D8 /* PBXTargetDependency */,
+			);
+			name = FocusAttentionUITests;
+			productName = FocusAttentionUITests;
+			productReference = 46230A4A1D51B0AB0023D0D8 /* FocusAttentionUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		46230A1B1D51B0AA0023D0D8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = EricAndPhliny;
+				TargetAttributes = {
+					46230A221D51B0AA0023D0D8 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					46230A3E1D51B0AB0023D0D8 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 46230A221D51B0AA0023D0D8;
+					};
+					46230A491D51B0AB0023D0D8 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 46230A221D51B0AA0023D0D8;
+					};
+				};
+			};
+			buildConfigurationList = 46230A1E1D51B0AA0023D0D8 /* Build configuration list for PBXProject "FocusAttention" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 46230A1A1D51B0AA0023D0D8;
+			productRefGroup = 46230A241D51B0AA0023D0D8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				46230A221D51B0AA0023D0D8 /* FocusAttention */,
+				46230A3E1D51B0AB0023D0D8 /* FocusAttentionTests */,
+				46230A491D51B0AB0023D0D8 /* FocusAttentionUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		46230A211D51B0AA0023D0D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46230A391D51B0AB0023D0D8 /* LaunchScreen.storyboard in Resources */,
+				46230A361D51B0AB0023D0D8 /* Assets.xcassets in Resources */,
+				46230A311D51B0AB0023D0D8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46230A3D1D51B0AB0023D0D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46230A481D51B0AB0023D0D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		46230A1F1D51B0AA0023D0D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46230A2E1D51B0AB0023D0D8 /* ViewController.m in Sources */,
+				46230A341D51B0AB0023D0D8 /* FocusAttention.xcdatamodeld in Sources */,
+				46230A2B1D51B0AA0023D0D8 /* AppDelegate.m in Sources */,
+				46230A281D51B0AA0023D0D8 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46230A3B1D51B0AB0023D0D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46230A441D51B0AB0023D0D8 /* FocusAttentionTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46230A461D51B0AB0023D0D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46230A4F1D51B0AB0023D0D8 /* FocusAttentionUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		46230A411D51B0AB0023D0D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 46230A221D51B0AA0023D0D8 /* FocusAttention */;
+			targetProxy = 46230A401D51B0AB0023D0D8 /* PBXContainerItemProxy */;
+		};
+		46230A4C1D51B0AB0023D0D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 46230A221D51B0AA0023D0D8 /* FocusAttention */;
+			targetProxy = 46230A4B1D51B0AB0023D0D8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		46230A2F1D51B0AB0023D0D8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				46230A301D51B0AB0023D0D8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		46230A371D51B0AB0023D0D8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				46230A381D51B0AB0023D0D8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		46230A511D51B0AB0023D0D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		46230A521D51B0AB0023D0D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		46230A541D51B0AB0023D0D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FocusAttention/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.focus.FocusAttention;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		46230A551D51B0AB0023D0D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FocusAttention/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.focus.FocusAttention;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		46230A571D51B0AB0023D0D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FocusAttentionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.focus.FocusAttentionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FocusAttention.app/FocusAttention";
+			};
+			name = Debug;
+		};
+		46230A581D51B0AB0023D0D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FocusAttentionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.focus.FocusAttentionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FocusAttention.app/FocusAttention";
+			};
+			name = Release;
+		};
+		46230A5A1D51B0AB0023D0D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FocusAttentionUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.focus.FocusAttentionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FocusAttention;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		46230A5B1D51B0AB0023D0D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FocusAttentionUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.focus.FocusAttentionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FocusAttention;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		46230A1E1D51B0AA0023D0D8 /* Build configuration list for PBXProject "FocusAttention" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46230A511D51B0AB0023D0D8 /* Debug */,
+				46230A521D51B0AB0023D0D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46230A531D51B0AB0023D0D8 /* Build configuration list for PBXNativeTarget "FocusAttention" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46230A541D51B0AB0023D0D8 /* Debug */,
+				46230A551D51B0AB0023D0D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		46230A561D51B0AB0023D0D8 /* Build configuration list for PBXNativeTarget "FocusAttentionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46230A571D51B0AB0023D0D8 /* Debug */,
+				46230A581D51B0AB0023D0D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		46230A591D51B0AB0023D0D8 /* Build configuration list for PBXNativeTarget "FocusAttentionUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46230A5A1D51B0AB0023D0D8 /* Debug */,
+				46230A5B1D51B0AB0023D0D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		46230A321D51B0AB0023D0D8 /* FocusAttention.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				46230A331D51B0AB0023D0D8 /* FocusAttention.xcdatamodel */,
+			);
+			currentVersion = 46230A331D51B0AB0023D0D8 /* FocusAttention.xcdatamodel */;
+			path = FocusAttention.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 46230A1B1D51B0AA0023D0D8 /* Project object */;
+}
