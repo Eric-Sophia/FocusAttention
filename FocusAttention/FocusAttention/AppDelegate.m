@@ -17,6 +17,11 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    HomePageViewController *homeVC = [[HomePageViewController alloc]init];
+    self.window.rootViewController  = homeVC;
+    
+    [self.window makeKeyAndVisible];
     return YES;
 }
 

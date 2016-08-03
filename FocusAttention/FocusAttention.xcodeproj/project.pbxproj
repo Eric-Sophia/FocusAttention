@@ -16,6 +16,17 @@
 		46230A391D51B0AB0023D0D8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46230A371D51B0AB0023D0D8 /* LaunchScreen.storyboard */; };
 		46230A441D51B0AB0023D0D8 /* FocusAttentionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 46230A431D51B0AB0023D0D8 /* FocusAttentionTests.m */; };
 		46230A4F1D51B0AB0023D0D8 /* FocusAttentionUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 46230A4E1D51B0AB0023D0D8 /* FocusAttentionUITests.m */; };
+		46230A611D51C2820023D0D8 /* NetOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 46230A601D51C2820023D0D8 /* NetOperation.m */; };
+		46230A691D51C7770023D0D8 /* HomePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 46230A681D51C7770023D0D8 /* HomePageViewController.m */; };
+		46230A6C1D51CC890023D0D8 /* StoryModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 46230A6B1D51CC890023D0D8 /* StoryModel.m */; };
+		46230A6F1D51DB410023D0D8 /* TopStoryModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 46230A6E1D51DB410023D0D8 /* TopStoryModel.m */; };
+		46230A721D51DC680023D0D8 /* HomePageViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 46230A711D51DC680023D0D8 /* HomePageViewModel.m */; };
+		46230A761D51DD6D0023D0D8 /* HeaderViewCollectionReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 46230A741D51DD6D0023D0D8 /* HeaderViewCollectionReusableView.m */; };
+		46230A771D51DD6D0023D0D8 /* HeaderViewCollectionReusableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 46230A751D51DD6D0023D0D8 /* HeaderViewCollectionReusableView.xib */; };
+		46230A7B1D51DDC20023D0D8 /* HomePageCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 46230A791D51DDC20023D0D8 /* HomePageCollectionViewCell.m */; };
+		46230A7C1D51DDC20023D0D8 /* HomePageCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 46230A7A1D51DDC20023D0D8 /* HomePageCollectionViewCell.xib */; };
+		46230A7F1D52184A0023D0D8 /* StoryViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 46230A7E1D52184A0023D0D8 /* StoryViewModel.m */; };
+		A14E50FF70FCBE116C563E9E /* libPods-FocusAttention.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BCEB7F770F0A2A7F4A427678 /* libPods-FocusAttention.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +64,29 @@
 		46230A4A1D51B0AB0023D0D8 /* FocusAttentionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FocusAttentionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		46230A4E1D51B0AB0023D0D8 /* FocusAttentionUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FocusAttentionUITests.m; sourceTree = "<group>"; };
 		46230A501D51B0AB0023D0D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46230A5C1D51BDC20023D0D8 /* FocusAttention.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FocusAttention.pch; sourceTree = "<group>"; };
+		46230A5D1D51C0E90023D0D8 /* GlobalDdfine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlobalDdfine.h; sourceTree = "<group>"; };
+		46230A5F1D51C2820023D0D8 /* NetOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetOperation.h; sourceTree = "<group>"; };
+		46230A601D51C2820023D0D8 /* NetOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetOperation.m; sourceTree = "<group>"; };
+		46230A671D51C7770023D0D8 /* HomePageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomePageViewController.h; sourceTree = "<group>"; };
+		46230A681D51C7770023D0D8 /* HomePageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomePageViewController.m; sourceTree = "<group>"; };
+		46230A6A1D51CC890023D0D8 /* StoryModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StoryModel.h; sourceTree = "<group>"; };
+		46230A6B1D51CC890023D0D8 /* StoryModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StoryModel.m; sourceTree = "<group>"; };
+		46230A6D1D51DB410023D0D8 /* TopStoryModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopStoryModel.h; sourceTree = "<group>"; };
+		46230A6E1D51DB410023D0D8 /* TopStoryModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopStoryModel.m; sourceTree = "<group>"; };
+		46230A701D51DC680023D0D8 /* HomePageViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomePageViewModel.h; sourceTree = "<group>"; };
+		46230A711D51DC680023D0D8 /* HomePageViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomePageViewModel.m; sourceTree = "<group>"; };
+		46230A731D51DD6D0023D0D8 /* HeaderViewCollectionReusableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeaderViewCollectionReusableView.h; sourceTree = "<group>"; };
+		46230A741D51DD6D0023D0D8 /* HeaderViewCollectionReusableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeaderViewCollectionReusableView.m; sourceTree = "<group>"; };
+		46230A751D51DD6D0023D0D8 /* HeaderViewCollectionReusableView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HeaderViewCollectionReusableView.xib; sourceTree = "<group>"; };
+		46230A781D51DDC20023D0D8 /* HomePageCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomePageCollectionViewCell.h; sourceTree = "<group>"; };
+		46230A791D51DDC20023D0D8 /* HomePageCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomePageCollectionViewCell.m; sourceTree = "<group>"; };
+		46230A7A1D51DDC20023D0D8 /* HomePageCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomePageCollectionViewCell.xib; sourceTree = "<group>"; };
+		46230A7D1D52184A0023D0D8 /* StoryViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StoryViewModel.h; sourceTree = "<group>"; };
+		46230A7E1D52184A0023D0D8 /* StoryViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StoryViewModel.m; sourceTree = "<group>"; };
+		854D1E4B7C08FA1883AFCB3E /* Pods-FocusAttention.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FocusAttention.release.xcconfig"; path = "Pods/Target Support Files/Pods-FocusAttention/Pods-FocusAttention.release.xcconfig"; sourceTree = "<group>"; };
+		BCEB7F770F0A2A7F4A427678 /* libPods-FocusAttention.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FocusAttention.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C45282B698CB1EAA8F6CB860 /* Pods-FocusAttention.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FocusAttention.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FocusAttention/Pods-FocusAttention.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +94,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A14E50FF70FCBE116C563E9E /* libPods-FocusAttention.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,6 +122,8 @@
 				46230A421D51B0AB0023D0D8 /* FocusAttentionTests */,
 				46230A4D1D51B0AB0023D0D8 /* FocusAttentionUITests */,
 				46230A241D51B0AA0023D0D8 /* Products */,
+				F2B211332DEF546743317A1E /* Pods */,
+				F0A075DB3BF803B674203F51 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +140,8 @@
 		46230A251D51B0AA0023D0D8 /* FocusAttention */ = {
 			isa = PBXGroup;
 			children = (
+				46230A621D51C7440023D0D8 /* HomeViewController */,
+				46230A5E1D51C2310023D0D8 /* DataRequest */,
 				46230A291D51B0AA0023D0D8 /* AppDelegate.h */,
 				46230A2A1D51B0AA0023D0D8 /* AppDelegate.m */,
 				46230A2C1D51B0AB0023D0D8 /* ViewController.h */,
@@ -121,6 +160,8 @@
 			isa = PBXGroup;
 			children = (
 				46230A271D51B0AA0023D0D8 /* main.m */,
+				46230A5C1D51BDC20023D0D8 /* FocusAttention.pch */,
+				46230A5D1D51C0E90023D0D8 /* GlobalDdfine.h */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -143,6 +184,87 @@
 			path = FocusAttentionUITests;
 			sourceTree = "<group>";
 		};
+		46230A5E1D51C2310023D0D8 /* DataRequest */ = {
+			isa = PBXGroup;
+			children = (
+				46230A5F1D51C2820023D0D8 /* NetOperation.h */,
+				46230A601D51C2820023D0D8 /* NetOperation.m */,
+			);
+			path = DataRequest;
+			sourceTree = "<group>";
+		};
+		46230A621D51C7440023D0D8 /* HomeViewController */ = {
+			isa = PBXGroup;
+			children = (
+				46230A631D51C7440023D0D8 /* Controller */,
+				46230A661D51C7440023D0D8 /* ViewModel */,
+				46230A641D51C7440023D0D8 /* Model */,
+				46230A651D51C7440023D0D8 /* View */,
+			);
+			path = HomeViewController;
+			sourceTree = "<group>";
+		};
+		46230A631D51C7440023D0D8 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				46230A671D51C7770023D0D8 /* HomePageViewController.h */,
+				46230A681D51C7770023D0D8 /* HomePageViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		46230A641D51C7440023D0D8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				46230A6A1D51CC890023D0D8 /* StoryModel.h */,
+				46230A6B1D51CC890023D0D8 /* StoryModel.m */,
+				46230A6D1D51DB410023D0D8 /* TopStoryModel.h */,
+				46230A6E1D51DB410023D0D8 /* TopStoryModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		46230A651D51C7440023D0D8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				46230A731D51DD6D0023D0D8 /* HeaderViewCollectionReusableView.h */,
+				46230A741D51DD6D0023D0D8 /* HeaderViewCollectionReusableView.m */,
+				46230A751D51DD6D0023D0D8 /* HeaderViewCollectionReusableView.xib */,
+				46230A781D51DDC20023D0D8 /* HomePageCollectionViewCell.h */,
+				46230A791D51DDC20023D0D8 /* HomePageCollectionViewCell.m */,
+				46230A7A1D51DDC20023D0D8 /* HomePageCollectionViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		46230A661D51C7440023D0D8 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				46230A701D51DC680023D0D8 /* HomePageViewModel.h */,
+				46230A711D51DC680023D0D8 /* HomePageViewModel.m */,
+				46230A7D1D52184A0023D0D8 /* StoryViewModel.h */,
+				46230A7E1D52184A0023D0D8 /* StoryViewModel.m */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		F0A075DB3BF803B674203F51 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BCEB7F770F0A2A7F4A427678 /* libPods-FocusAttention.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F2B211332DEF546743317A1E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C45282B698CB1EAA8F6CB860 /* Pods-FocusAttention.debug.xcconfig */,
+				854D1E4B7C08FA1883AFCB3E /* Pods-FocusAttention.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -150,9 +272,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 46230A531D51B0AB0023D0D8 /* Build configuration list for PBXNativeTarget "FocusAttention" */;
 			buildPhases = (
+				80430B6E47D6FC78B7A809A3 /* [CP] Check Pods Manifest.lock */,
 				46230A1F1D51B0AA0023D0D8 /* Sources */,
 				46230A201D51B0AA0023D0D8 /* Frameworks */,
 				46230A211D51B0AA0023D0D8 /* Resources */,
+				34396AC7826C97E45E849E64 /* [CP] Embed Pods Frameworks */,
+				1A42E5FE8C493D50819E32DE /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -247,8 +372,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				46230A391D51B0AB0023D0D8 /* LaunchScreen.storyboard in Resources */,
+				46230A7C1D51DDC20023D0D8 /* HomePageCollectionViewCell.xib in Resources */,
 				46230A361D51B0AB0023D0D8 /* Assets.xcassets in Resources */,
 				46230A311D51B0AB0023D0D8 /* Main.storyboard in Resources */,
+				46230A771D51DD6D0023D0D8 /* HeaderViewCollectionReusableView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,15 +395,71 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1A42E5FE8C493D50819E32DE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FocusAttention/Pods-FocusAttention-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		34396AC7826C97E45E849E64 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FocusAttention/Pods-FocusAttention-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		80430B6E47D6FC78B7A809A3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		46230A1F1D51B0AA0023D0D8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				46230A7F1D52184A0023D0D8 /* StoryViewModel.m in Sources */,
+				46230A7B1D51DDC20023D0D8 /* HomePageCollectionViewCell.m in Sources */,
+				46230A721D51DC680023D0D8 /* HomePageViewModel.m in Sources */,
+				46230A611D51C2820023D0D8 /* NetOperation.m in Sources */,
 				46230A2E1D51B0AB0023D0D8 /* ViewController.m in Sources */,
+				46230A6C1D51CC890023D0D8 /* StoryModel.m in Sources */,
+				46230A691D51C7770023D0D8 /* HomePageViewController.m in Sources */,
 				46230A341D51B0AB0023D0D8 /* FocusAttention.xcdatamodeld in Sources */,
 				46230A2B1D51B0AA0023D0D8 /* AppDelegate.m in Sources */,
+				46230A761D51DD6D0023D0D8 /* HeaderViewCollectionReusableView.m in Sources */,
 				46230A281D51B0AA0023D0D8 /* main.m in Sources */,
+				46230A6F1D51DB410023D0D8 /* TopStoryModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,8 +596,10 @@
 		};
 		46230A541D51B0AB0023D0D8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C45282B698CB1EAA8F6CB860 /* Pods-FocusAttention.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/FocusAttention/FocusAttention.pch";
 				INFOPLIST_FILE = FocusAttention/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.focus.FocusAttention;
@@ -424,8 +609,10 @@
 		};
 		46230A551D51B0AB0023D0D8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 854D1E4B7C08FA1883AFCB3E /* Pods-FocusAttention.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/FocusAttention/FocusAttention.pch";
 				INFOPLIST_FILE = FocusAttention/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.focus.FocusAttention;
@@ -500,6 +687,7 @@
 				46230A551D51B0AB0023D0D8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		46230A561D51B0AB0023D0D8 /* Build configuration list for PBXNativeTarget "FocusAttentionTests" */ = {
 			isa = XCConfigurationList;
@@ -508,6 +696,7 @@
 				46230A581D51B0AB0023D0D8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		46230A591D51B0AB0023D0D8 /* Build configuration list for PBXNativeTarget "FocusAttentionUITests" */ = {
 			isa = XCConfigurationList;
@@ -516,6 +705,7 @@
 				46230A5B1D51B0AB0023D0D8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

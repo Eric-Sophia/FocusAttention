@@ -1,0 +1,33 @@
+//
+//  FocusAttention.pch
+//  FocusAttention
+//
+//  Created by 庄志豪 on 16/8/3.
+//  Copyright © 2016年 EricAndPhliny. All rights reserved.
+//
+
+#ifndef FocusAttention_pch
+#define FocusAttention_pch
+
+#import "GlobalDdfine.h"
+#import <AFNetworking/AFNetworking.h>
+#import <YYModel.h>
+//公共
+#import "NetOperation.h"
+
+//主页
+#import "HomePageViewController.h"
+#import "HomePageCollectionViewCell.h"
+#import "HomePageViewModel.h"
+#import "StoryModel.h"
+#import "StoryViewModel.h"
+#import "TopStoryModel.h"
+#import "HeaderViewCollectionReusableView.h"
+
+#import "AppDelegate.h"
+
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* FocusAttention_pch */
